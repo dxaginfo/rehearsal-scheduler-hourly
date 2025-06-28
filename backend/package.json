@@ -1,0 +1,17 @@
+{
+  "name": "rehearsal-scheduler-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "pg": "^8.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "socket.io": "^4.0.0",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
